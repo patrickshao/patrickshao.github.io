@@ -177,6 +177,11 @@
  /*height:200px;*/
 }
 
+.center{
+  text-align: center;
+  margin:20px;
+}
+
 #profile-pic{
   float:left;
   margin-right:20px;
@@ -211,7 +216,7 @@
   list-style: none;
   width:80%;
   margin-bottom: 20px;
-
+  margin-top: 40px;
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
