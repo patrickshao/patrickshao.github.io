@@ -16,6 +16,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://patrickshao.me" # the base hostname & protocol for your site
 ###twitter_username: jekyllrb
 github_username:  patrickshao
+linkedin_username: patrickshao
 favicon: "favicon.ico"
 google_analytics_key: "UA-67181365-2" 
 
