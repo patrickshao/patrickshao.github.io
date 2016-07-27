@@ -162,7 +162,64 @@
     }
 }
 
+/**
+ * Index Page
+ */
 
+ #title {
+    font-size: 42px;    
+    text-align: center;
+    padding-top: 250px;
+    padding-bottom:250px;
+}
+
+#about-me{
+ height:200px;
+ background-color:white;
+}
+
+
+/**
+ * Flexbox
+ */
+.flex-container {
+  padding: 0;
+  margin: 0 auto;
+  list-style: none;
+  width:80%;
+
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  
+  -webkit-flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.flex-item {
+  width: 300px;
+  text-align: center;
+}
+
+.flex-title{
+  font-size: 1em;
+  margin-bottom: 15px;
+  font-weight:bold;
+  display:block;
+}
+
+.flex-image{
+  width:120px;
+  height:120px;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.flex-description{
+  font-size:1em;
+}
 
 /**
  * Page content
