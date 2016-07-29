@@ -6,7 +6,7 @@ permalink: /credits/
 
 Special thanks to:
 
-["Creative Commons"][milky-way] by [inefekt69][milky-way-author] is licensed under [CC BY 2.0][cc]
+["Creative Commons - No Title"][milky-way] by [inefekt69][milky-way-author] is licensed under [CC BY 2.0][cc]
 
 Font Awesome by Dave Gandy - [http://fontawesome.io][awesome]
 
