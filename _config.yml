@@ -14,7 +14,7 @@ description: > # this means to ignore newlines until "baseurl:"
   of computer science.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://www.patrickshao.com" # the base hostname & protocol for your site
-enforce_ssl: "www.patrickshao.com"
+
 ###twitter_username: jekyllrb
 github_username:  patrickshao
 linkedin_username: patrickshao
