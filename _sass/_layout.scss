@@ -8,6 +8,8 @@
 
     // Positioning context for the mobile navigation icon
     position: relative;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 .site-title {
@@ -304,9 +306,9 @@
 }
 
 .post-title {
-    /*font-size: 42px;*/
-    letter-spacing: -1px;
-    line-height: 1;
+    font-size: 42px;
+    /*letter-spacing: -1px;*/
+    /*line-height: 1;*/
 
     @include media-query($on-laptop) {
         /*font-size: 36px;*/
