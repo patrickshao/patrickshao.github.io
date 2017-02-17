@@ -72,7 +72,7 @@ The way this code block works is that Jekyll, with the help of Liquid Templating
 
 
 
-[old]: old.patrickshao.com
+[old]: http://old.patrickshao.com
 [jekyll]: http://jekyllrb.com/docs/installation/
 [structure]: https://jekyllrb.com/docs/structure/
 [template]: https://jekyllrb.com/docs/templates/
