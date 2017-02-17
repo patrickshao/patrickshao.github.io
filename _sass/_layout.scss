@@ -185,11 +185,12 @@
 }
 
 #profile-pic{
+  width: 298px;
   float:left;
   margin-right:20px;
 
 
-  @include media-query($on-palm) {
+  @include media-query($on-small) {
     width:100%;
     float:none;
   }
