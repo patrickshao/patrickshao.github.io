@@ -5,7 +5,7 @@ date:   2016-07-28 23:28:04 -0700
 categories: web
 tags: jekyll
 ---
-{% raw %} 
+
 A few days ago, I decided to revamp my personal website (for those who are curious, still accessible [here][old]). I decided that this was an excellent opportunity to start a blog that outlines my journey in computer science as well as in startups! 
 
 Forewarning: I haven't really thought through what I am planning to put on this blog, so I suppose it'll be a mix of my thoughts with some teaching components for those who are interested in learning more about what I'm playing with at the current time.
@@ -56,6 +56,7 @@ With so many generated folders and files it may seem like a lot, but not to worr
   - `_layout.scss` contains the CSS for specific classes. You will most likely be modifying this file quite a bit if you want to tweak the appearence of your website.
 * For more information check [Jekyll's directory structure document][structure]. 
 
+{% raw %} 
 # Liquid Template
 You may have noticed text surrounded by `{}`s. This is known as Liquid templating language, which is used to process tempaltes.  In summary, as the user you can put in filters and outputs. The most important ones you should be aware of is `{{ content }}` and {% include head.html %}, which was explained above, as well as this:
 
@@ -66,6 +67,8 @@ You may have noticed text surrounded by `{}`s. This is known as Liquid templatin
   {% endif %}
 {% endfor %}
 ```
+{% endraw %}
+
 The way this code block works is that Jekyll, with the help of Liquid Templating's tags, knows to search for all the pages within the site, and if it has a title, creates a link to it. More detail about Jekyll's template system is explained [here][template].
 
 # Markdown
@@ -77,4 +80,3 @@ The way this code block works is that Jekyll, with the help of Liquid Templating
 [structure]: https://jekyllrb.com/docs/structure/
 [template]: https://jekyllrb.com/docs/templates/
 [post-problems]: http://stackoverflow.com/questions/30625044/jekyll-post-not-generated
-{% endraw %}
